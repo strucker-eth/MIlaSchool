@@ -17,7 +17,7 @@ const MyProjects = () => {
               <div class="mb-3">
                 <a
                   class="mb-1 text-sm font-medium text-teal-600 hover:text-teal-600"
-                  href="/#section-one"
+                  href="#section-1"
                 >
                  What is Blockchain?
                 </a>
@@ -25,7 +25,7 @@ const MyProjects = () => {
               <div class="mb-3">
                 <a
                   class="mb-1 text-sm font-medium text-gray-600 hover:text-teal-600"
-                  href="#"
+                  href="#section-2"
                 >
                 What is a Distributed Ledger?
                 </a>
@@ -33,7 +33,7 @@ const MyProjects = () => {
               <div class="mb-3">
                 <a
                   class="mb-1 text-sm font-medium text-gray-600 hover:text-teal-600"
-                  href="#"
+                  href="#section-3"
                 >
                  Types of Blockchain
                 </a>
@@ -41,7 +41,7 @@ const MyProjects = () => {
               <div class="mb-3">
                 <a
                   class="mb-1 text-sm font-medium text-gray-600 hover:text-teal-600"
-                  href="#"
+                  href="#section-4"
                 >
                  Importance of Blockchain technology today 
 
@@ -76,7 +76,7 @@ which bitcoin is built.
  Blockchain provides a secure method of transacting in bitcoin
 
             </p>
-            <h3 id="section-two" class="mb-4 text-3xl font-bold">
+            <h3 id="section-2" class="mb-4 text-3xl font-bold">
             What is Distributed Ledger
 
             </h3>
@@ -85,7 +85,7 @@ which bitcoin is built.
 be shared and synchronized across multiple platforms.
 
             </p>
-            <h2 id="section-two" class="mb-4 text-3xl font-bold">
+            <h2 id="section-3" class="mb-4 text-3xl font-bold">
         History of Blockchain
             </h2>
             <p class="mb-10 text-gray-600">
@@ -99,7 +99,7 @@ posted to a cryptography mailing list by Satoshi Nakamoto.
             </p>
           
            
-            <h3 id="section-two" class="mb-4 text-3xl font-bold">
+            <h3 id="section-4" class="mb-4 text-3xl font-bold">
             Types of Blockchain
 
 
@@ -113,7 +113,7 @@ posted to a cryptography mailing list by Satoshi Nakamoto.
           </ol>
 
             </p>
-            <h3 id="section-two" class="mb-4 text-3xl font-bold">
+            <h3 id="section-5" class="mb-4 text-3xl font-bold">
             Importance of Blockchain technology today 
 
             </h3>

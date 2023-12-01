@@ -17,7 +17,7 @@ const MyProjects = () => {
               <div class="mb-3">
                 <a
                   class="mb-1 text-sm font-medium text-teal-600 hover:text-teal-600"
-                  href="/#section-one"
+                  href="#section-one"
                 >
                   What is Crypto currency?
                 </a>
@@ -25,15 +25,23 @@ const MyProjects = () => {
               <div class="mb-3">
                 <a
                   class="mb-1 text-sm font-medium text-teal-600 hover:text-teal-600"
-                  href="/#section-one"
+                  href="#section-2"
                 >
                   Different types of popular Cryptocurrencies
                 </a>
               </div>
               <div class="mb-3">
                 <a
+                  class="mb-1 text-sm font-medium text-teal-600 hover:text-teal-600"
+                  href="#section-3"
+                >
+                          Popular Cryptocurrency Exchanges
+                </a>
+              </div>
+              <div class="mb-3">
+                <a
                   class="mb-1 text-sm font-medium text-gray-600 hover:text-teal-600"
-                  href="#"
+                  href="#section-4"
                 >
                   How to store & secure your crypto
                 </a>
@@ -41,9 +49,25 @@ const MyProjects = () => {
               <div class="mb-3">
                 <a
                   class="mb-1 text-sm font-medium text-gray-600 hover:text-teal-600"
-                  href="#"
+                  href="#section-5"
                 >
                   What crypto storage really means
+                </a>
+              </div>
+              <div class="mb-3">
+                <a
+                  class="mb-1 text-sm font-medium text-gray-600 hover:text-teal-600"
+                  href="#section-6"
+                >
+                 How is crypto different from the traditional banking?
+                </a>
+              </div>
+              <div class="mb-3">
+                <a
+                  class="mb-1 text-sm font-medium text-teal-600 hover:text-teal-600"
+                  href="#section-7"
+                >
+                 Conclusion
                 </a>
               </div>
             </div>
@@ -70,7 +94,7 @@ const MyProjects = () => {
               you’ll need to become familiar with, which will help you navigate
               the different options for using cryptocurrency
             </p>
-            <h2 id="section-one" class="mb-4 text-3xl font-bold">
+            <h2 id="section-2" class="mb-4 text-3xl font-bold">
               Different types of popular Cryptocurrencies
             </h2>
             <ol class="list-disc">
@@ -78,7 +102,7 @@ const MyProjects = () => {
               <li>Ethereum</li>
               <li> Ripple (XRP)</li>
             </ol>
-            <h2 id="section-two" class="mb-4 mt-7 text-3xl font-bold">
+            <h2 id="" class="mb-4 mt-7 text-3xl font-bold">
               What are Alt Coins
             </h2>
             <p class="mb-10 text-gray-600">
@@ -93,7 +117,7 @@ const MyProjects = () => {
               Bitcoin, only that it’s just a lot riskier, and you could lose
               everything in an instant.
             </p>
-            <h2 id="section-two" class="mb-4 text-3xl font-bold">
+            <h2 id="" class="mb-4 text-3xl font-bold">
               What are Stable Coins
             </h2>
             <p class="mb-10 text-gray-600">
@@ -105,7 +129,7 @@ const MyProjects = () => {
                 <li> USDC</li>
               </ol>
             </p>
-            <h2 id="section-two" class="mb-4 text-3xl font-bold">
+            <h2 id="section-3" class="mb-4 text-3xl font-bold">
               Popular Cryptocurrency Exchanges
             </h2>
 
@@ -117,7 +141,7 @@ const MyProjects = () => {
               <li> Voyager</li>
               <li> Crypto.com</li>
             </ol>
-            <h3 id="section-two" class="mb-4 mt-6 text-3xl font-bold">
+            <h3 id="section-4" class="mb-4 mt-6 text-3xl font-bold">
               How to Store & Secure Cryptocurrency
             </h3>
             <p class="mb-10 text-gray-600">
@@ -144,7 +168,7 @@ const MyProjects = () => {
                 </ol>
               </p>
             </p>
-            <h2 id="section-two" class="mb-4 text-3xl font-bold">
+            <h2 id="section-5" class="mb-4 text-3xl font-bold">
               What Crypto Storage Really Means
             </h2>
             <p class="mb-10 text-gray-600">
@@ -168,7 +192,7 @@ const MyProjects = () => {
                   receive funds. Cryptocurrency operates in a similar way,
                   except there is no bank.
                 </p>
-                <h3 id="section-two" class="mb-4 text-3xl font-bold">
+                <h3 id="section-6" class="mb-4 text-3xl font-bold">
                   How is crypto different from the traditional banking
                 </h3>
                 <li>
@@ -195,7 +219,7 @@ const MyProjects = () => {
                 </p>
               </ol>
             </p>
-            <h3 id="section-two" class="mb-4 text-3xl font-bold">
+            <h3 id="section-7" class="mb-4 text-3xl font-bold">
               Conclusion
             </h3>
             <p class="mb-10 text-gray-600">

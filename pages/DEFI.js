@@ -17,7 +17,7 @@ const MyProjects = () => {
               <div class="mb-3">
                 <a
                   class="mb-1 text-sm font-medium text-teal-600 hover:text-teal-600"
-                  href="/#section-one"
+                  href="#section-one"
                 >
                   What is Defi?
                 </a>
@@ -25,7 +25,7 @@ const MyProjects = () => {
               <div class="mb-3">
                 <a
                   class="mb-1 text-sm font-medium text-gray-600 hover:text-teal-600"
-                  href="#"
+                  href="#section-2"
                 >
                   What can you do with Defi?
                 </a>
@@ -33,7 +33,7 @@ const MyProjects = () => {
               <div class="mb-3">
                 <a
                   class="mb-1 text-sm font-medium text-gray-600 hover:text-teal-600"
-                  href="#"
+                  href="#section-3"
                 >
                   How can you take advantage of Defi?
                 </a>
@@ -72,7 +72,7 @@ const MyProjects = () => {
               and grow your wealth,
             </p>
 
-            <h3 id="section-two" class="mb-4 text-3xl font-bold">
+            <h3 id="section-2" class="mb-4 text-3xl font-bold">
               What can you do with Defi?
             </h3>
             <p class="mb-10 text-gray-600">
@@ -88,7 +88,7 @@ const MyProjects = () => {
               simply need to lock your crypto assets into a smart contract to be
               used as collateral.
             </p>
-            <h2 id="section-two" class="mb-4 text-3xl font-bold">
+            <h2 id="section-3" class="mb-4 text-3xl font-bold">
               How can you take advantage of Defi?
             </h2>
             <p class="mb-10 text-gray-600">
@@ -135,7 +135,7 @@ const MyProjects = () => {
                 </p>
               </ol>
             </p>
-            <h3 id="section-two" class="mb-4 text-3xl font-bold">
+            <h3 id="section-7" class="mb-4 text-3xl font-bold">
               Conclusion
             </h3>
             <p class="mb-10 text-gray-600">
