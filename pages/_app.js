@@ -7,6 +7,7 @@ import { configureChains, createClient, WagmiConfig } from 'wagmi';
 import { mainnet, polygon, optimism, arbitrum, polygonMumbai, bsc, bscTestnet} from 'wagmi/chains';
 import { alchemyProvider } from 'wagmi/providers/alchemy';
 import { publicProvider } from 'wagmi/providers/public';
+import { Analytics } from '@vercel/analytics/react';
 
 const { chains, provider } = configureChains(
   [mainnet, polygon, optimism, arbitrum, polygonMumbai, bsc, bscTestnet],
@@ -30,6 +31,7 @@ const wagmiClient = createClient({
 
 function MyApp({ Component, pageProps }) {
  return (
+  <>
   <WagmiConfig client={wagmiClient}>
     <RainbowKitProvider chains={chains}
     
@@ -48,6 +50,8 @@ function MyApp({ Component, pageProps }) {
     <Component {...pageProps} />
     </RainbowKitProvider>
   </WagmiConfig>
+     <Analytics />
+     </>
 );
 };
 
