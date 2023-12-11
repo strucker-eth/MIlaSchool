@@ -33,3 +33,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# ts logs
+=4.9.4
