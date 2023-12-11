@@ -38,8 +38,15 @@ export default function Home() {
             </Link>
             <div class="flex md:order-2">
               <div class="text-gray text-sm px-4 py-2 text-center mr-3 md:mr-0 ">
-                {" "}
-                <ConnectButton class="rounded-full"> </ConnectButton>{" "}
+              <div className="flex font-Inter font-normal text-[13px]">
+                <Link href="#courses">
+                <div className="">
+                  <button class="bg-gradient-to-r from-cyan-500 bg-[#1E242C] mr-2 hover:bg-[#009A9A] text-white py-3 px-4 rounded-full">
+                    Explore Courses
+                  </button>
+                </div>
+                </Link>
+              </div>
               </div>
               <button
                 data-collapse-toggle="navbar-sticky"
@@ -68,7 +75,43 @@ export default function Home() {
               class="items-center justify-between hidden w-full  md:flex md:w-auto md:order-1"
               id="navbar-sticky"
             >
-             
+              <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border text-center border-gray-100  md:flex-row md:space-x-8 md:mt-0 md:border-0 bg-transparent ">
+                <li>
+                  <Link
+                    href="/"
+                    class="block py-2 pl-3 pr-4 text-gray-900 bg-transparent rounded-xl  hover:text-teal md:bg-transparent md:p-0 md:dark:text-blue-500"
+                    aria-current="page"
+                  >
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="#courses"
+                    class="block py-2 pl-3 pr-4 text-gray-900  hoveroundedr:bg-teal-700 hover:text-teal-700 700 md:p-0 dark:text-gray dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent dark:border-gray-700"
+                  >
+                   Courses
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="#features"
+                    class="block py-2 pl-3 pr-4 text-gray-900   hover:text-teal-700  md:p-0 md:dark:hover:text-blue-500 dark:text-gray dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent dark:border-gray-700"
+                  >
+                    Features
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="#contact"
+                    class="block py-2 pl-3 pr-4 text-gray-900  hover:text-teal-700 md:p-0 "
+                  >
+                    Contact Us
+                  </Link>
+                </li>
+                
+                
+              </ul>
             </div>
           </div>
         </nav>
@@ -103,11 +146,13 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex font-Inter font-normal text-[13px]">
+                <Link href="#courses">
                 <div className="">
                   <button class="bg-gradient-to-r from-cyan-500 bg-[#1E242C] mr-2 hover:bg-[#009A9A] text-white py-3 px-4 rounded-full">
                     Explore Courses
                   </button>
                 </div>
+                </Link>
               </div>
             </div>
             <div className="flex  flex-col  w-12/12 md:w-8/12 font-Inter  text-[90px] justify-center">
@@ -132,13 +177,13 @@ export default function Home() {
             </div>
 
             <div
-              id="Recents"
+             
               className="bg-hero-bottom h-[1500px] bg-no-repeat bg-50%"
             >
-              <div className="flex  mt-10 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter">
+              <div  className="flex  mt-10 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter">
                 <div class="text-[#009A9A] font-Inter text-[45px] font-normal">
-                  <span className="text-[#009A9A] font-extrabold">
-                    <p class="text-[#000000] text-[48px] leading-[39.59px] md:leading-[19.59px]  pb-0 mb-0 w-[100%] ">
+                  <span  className="text-[#009A9A] font-extrabold">
+                    <p id="courses" class="text-[#000000] text-[48px] leading-[39.59px] md:leading-[19.59px]  pb-0 mb-0 w-[100%] ">
                       Recent Courses{" "}
                     </p>
                     <p>Listed on MilaSchool</p>{" "}
@@ -252,7 +297,7 @@ export default function Home() {
               </div>
 
               <section class="mx-auto flex max-w-lg flex-col px-14 py-20 -mb-28  lg:max-w-screen-xl lg:flex-row">
-                <div class="">
+                <div id="features" class="">
                   <h2 class="mb-10  text-4xl font-bold leading-snug lg:text-5xl lg:leading-snug">
                     A <span class="text-[#009A9A] ">revolutionary</span> way to
                     Learn about the Blockchain
@@ -337,7 +382,7 @@ export default function Home() {
                 </h2>
               </div>
               {/**Start of Contact */}
-              <div class="sm:p-10 -mt-6 mx-20 font-inter my-auto">
+              <div id="contact" class="sm:p-10 -mt-6 mx-20 font-inter my-auto">
                 <section class="max-w-screen-xl md:rounded-md  md:shadow-lg">
                   <div class="grid grid-cols-4 text-gray-800 lg:grid-cols-3">
                     <div class="col-span-4 px-8 py-10 text-gray-800 md:col-span-2  md:px-10 md:py-12 lg:col-span-1">
