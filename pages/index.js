@@ -68,57 +68,7 @@ export default function Home() {
               class="items-center justify-between hidden w-full  md:flex md:w-auto md:order-1"
               id="navbar-sticky"
             >
-              <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border text-center border-gray-100  md:flex-row md:space-x-8 md:mt-0 md:border-0 bg-transparent ">
-                <li>
-                  <Link
-                    href="/"
-                    class="block py-2 pl-3 pr-4 text-gray-900 bg-transparent rounded-xl  hover:text-teal md:bg-transparent md:p-0 md:dark:text-blue-500"
-                    aria-current="page"
-                  >
-                    Home
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="#"
-                    class="block py-2 pl-3 pr-4 text-gray-900  hoveroundedr:bg-teal-700 hover:text-teal-700 700 md:p-0 dark:text-gray dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent dark:border-gray-700"
-                  >
-                    For Investors
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/DashBoard"
-                    class="block py-2 pl-3 pr-4 text-gray-900   hover:text-teal-700  md:p-0 md:dark:hover:text-blue-500 dark:text-gray dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent dark:border-gray-700"
-                  >
-                    For Founders
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="#"
-                    class="block py-2 pl-3 pr-4 text-gray-900  hover:text-teal-700 md:p-0 "
-                  >
-                    Contact Us
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="#Recents"
-                    class="block py-2 pl-3 pr-4 text-gray-900 rounded  hover:text-teal-700 md:p-0 "
-                  >
-                    Projects
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/Courses"
-                    class="block py-2 pl-3 pr-4 text-gray-900 rounded  hover:text-teal-700 md:p-0 "
-                  >
-                    Courses
-                  </Link>
-                </li>
-              </ul>
+             
             </div>
           </div>
         </nav>
@@ -128,16 +78,13 @@ export default function Home() {
         <header className="pt-9">
           <div className="flex  w-10/12 flex-col sm:flex-row   border-red-400 justify-center mx-auto item-center tracking-tighter">
             <div className="flex flex-col w-12/12 lg:w-5/12">
-              <div className="flex flex-col  text-[102px] font-Inter font-extrabold  leading-[87.59px]">
-                <p className="mt-[149px] mb-0 p-0">Support</p>
+              <div className="flex flex-col  text-[100px] font-Inter font-extrabold  leading-[87.59px]">
+                <p className="mt-[100px] mb-4 p-0">Join Milaschool</p>
                 <p className="text-[#009A9A] text-[68px] leading-[56.59px]">
-                  African{" "}
+                  Become a Blockchain{" "}
                 </p>
                 <p className="text-[#009A9A] text-[68px] leading-[56.59px]">
-                  Startups{" "}
-                </p>
-                <p className="text-[20px] font-extra-bold  leading-[29.59px] ">
-                  in Africa & Diaspora
+                  Expert!{" "}
                 </p>
               </div>
               <div className="flex text-[102px] font-roboto font-extra-bold  w-[100%] ">
@@ -146,11 +93,11 @@ export default function Home() {
                 <div className=" flex flex-col text-[17px] font-bolder my-0  pt-8">
                   <div className="flex flex-col border-red-400 border-l-[1px] pl-4 h-24 justify-center tracking-normal ">
                     <span className="inline-block">
-                      Milala uses the{" "}
+                      Discover a focused approach to{" "}
                       <span className="text-[#009A9A] ">
-                        Blockchain technology
+                        mastering blockchain technology
                       </span>{" "}
-                      to help you Support Startupes with massive ROI
+                      through our meticulously crafted courses.
                     </span>
                   </div>
                 </div>
@@ -158,15 +105,7 @@ export default function Home() {
               <div className="flex font-Inter font-normal text-[13px]">
                 <div className="">
                   <button class="bg-gradient-to-r from-cyan-500 bg-[#1E242C] mr-2 hover:bg-[#009A9A] text-white py-3 px-4 rounded-full">
-                    Support a Startup
-                  </button>
-                </div>
-                <div className="">
-                  <button
-                    type="button"
-                    class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-normal rounded-full text-sm px-5 py-2.5"
-                  >
-                    List My Startup
+                    Explore Courses
                   </button>
                 </div>
               </div>
@@ -174,8 +113,8 @@ export default function Home() {
             <div className="flex  flex-col  w-12/12 md:w-8/12 font-Inter  text-[90px] justify-center">
               <div className="border-0 justify-center    text-center">
                 <img
-                  className="w-[1500px]  mx-0 my-0 ml-0 sm:ml-10"
-                  src="./img/7herob.png"
+                  className="w-[2000px] -mr-10 mx-0 my-0 ml-0 sm:ml-10"
+                  src="./img/On-Chain.png"
                   alt="Milala-Hero"
                 />
               </div>
@@ -188,51 +127,8 @@ export default function Home() {
             <div className="flex flex-col md:flex-row mt-10 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter">
               <div class="text-[#009A9A] font-roboto text-[35px] md:text-[45px] font-normal ">
                 <span className="text-[#009A9A] font-extrabold">Milala</span> |
-                Easy investing from anywhere!
+                Easy Learning About the Blockchain from anywhere!
               </div>
-
-              <div class="flex flex-col border-gray-400 justify-center ">
-                <div class="flex justify-end text-[#009A9A] text-[15px] font-semibold">
-                  24hrs Help
-                </div>
-                <div class="flex justify-end text-[#1E242C] text-4xl font-bold text-right ">
-                  <span class="text-right text-[#009A9A]">+1</span>90-909-0998
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-col md:flex-row  justify-between w-10/12  border-red-400  mx-auto item-center tracking-tighter  mt-24">
-              <div class="flex flex-col text-[#009A9A] font-Inter text-[20px]   h-[300px] w-[300px]">
-                <p class="w-[100%]">1 - 4 Steps</p>
-                <p class="text-[#000000] text-[48px] leading-[39.59px] pb-0 mb-0 w-[100%]  mt-10">
-                  Step
-                </p>
-                <p
-                  class="text-[#000000] text-[48px] leading-[46.59px] font-extrabold w-[100%]"
-                  p-0
-                >
-                  by Step
-                </p>
-                <p class="text-[45px] font-extra-bold  leading-[29.59px] w-[100%] mt-2">
-                  Investing
-                </p>
-                <div className="flex font-Inter font-normal text-[13px] mt-5">
-                  <div className="">
-                    <button class="bg-gradient-to-r from-cyan-500 bg-[#1E242C] mr-2 hover:bg-[#009A9A] text-white py-3 px-4 rounded-full">
-                      Support a Startup
-                    </button>
-                  </div>
-                  <div className="">
-                    <button
-                      type="button"
-                      class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-normal rounded-full text-sm px-5 py-2.5"
-                    >
-                      List My Startup
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              <div class="h-[290px] md:h-[510px] w-12/12 md:w-8/12 bg-milala-step bg-no-repeat bg-50%"></div>
             </div>
 
             <div
@@ -243,25 +139,16 @@ export default function Home() {
                 <div class="text-[#009A9A] font-Inter text-[45px] font-normal">
                   <span className="text-[#009A9A] font-extrabold">
                     <p class="text-[#000000] text-[48px] leading-[39.59px] md:leading-[19.59px]  pb-0 mb-0 w-[100%] ">
-                      Recent Startups{" "}
+                      Recent Courses{" "}
                     </p>
                     <p>Listed on Milala</p>{" "}
-                    <div className="flex font-Inter font-normal text-[13px] mt-5">
-                      <div className="">
-                        <button
-                          type="button"
-                          class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-normal rounded-full text-sm px-5 py-2.5"
-                        >
-                          List My Startup
-                        </button>
-                      </div>
-                    </div>
+                    <div className="flex font-Inter font-normal text-[13px] mt-5"></div>
                   </span>
                 </div>
 
                 <div class="flex flex-col border-gray-400 justify-center text-[#009A9A]">
                   <div class="flex justify-end  text-[20px] font-bold">
-                    View More{" "}
+                    View More Courses{" "}
                     <img class="w-[19px] ml-3" src="./img/arrow.svg" />
                   </div>
                 </div>
@@ -272,27 +159,29 @@ export default function Home() {
                   <div class="p-4 flex flex-col">
                     <div class="rounded-xl overflow-hidden">
                       <img
-                        src="./img/Loli.png"
+                        src="./img/BLOCKCHAIN-DEVELOPMENT-3.jpg"
                         class="h-64 w-full"
                         alt="Startup Image"
                       ></img>
                     </div>
                     <div class="flex items-center">
                       <h5 class="text-2xl md:text-2xl font-Inter text-[#009A9A] font-extrabold text-center mt-4">
-                        Loli Creations
+                        Blockchain Crash Course
                       </h5>
                     </div>
                     <p class="text-black-500 font-roboto xl-text-l md:text-m font-extrabold lg:text-base mt-3">
-                      Loli began out of a love for creating beautiful pieces of
-                      handmade accessories. We offer tote bags, toiletry bags,
-                      backpacks, purses, travel bags and laptop sleeves.
+                      Dive into the fundamentals of blockchain technology with
+                      our Crash Course. Explore its core concepts, decentralized
+                      architecture, and real-world applications, equipping
+                      yourself with essential knowledge for this transformative
+                      technology.
                     </p>
                     <div class="flex justify-center mt-3">
                       <Link
-                        href="https://ab-africanprojects.com/loli-creations_demo/"
+                        href="/CrashCourse"
                         class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3"
                       >
-                        View Startup
+                        View Course
                       </Link>
                     </div>
                   </div>
@@ -302,27 +191,28 @@ export default function Home() {
                   <div class="p-4 flex flex-col">
                     <div class="rounded-xl overflow-hidden">
                       <img
-                        src="./img/Irrifarm.jpg"
+                        src="./img/scanpay.jpg"
                         class="h-64 w-full"
                         alt="Startup Image"
                       ></img>
                     </div>
                     <div class="flex items-center">
                       <h5 class="text-2xl md:text-2xl font-Inter text-[#009A9A] font-extrabold text-center mt-4">
-                        IrriFarm
+                        Introduction to DeFI (Decentralized Finance)
                       </h5>
                     </div>
                     <p class="text-black-500 lg:text-base xl-text-l md:text-base w-fit font-extrabold font-roboto mt-3">
-                      We are an organization that was established with an aim of
-                      helping farmers in Arid and Semi-Arid areas and other
-                      areas that lack enough water to favor farming.
+                      This course introduces the concept of DEFI (Decentralized
+                      Finance) , you will learn about Defi & what it enables you
+                      to do,why you need to take advantage of Defi opportunities
+                      and the language & key terms associated with Defi.
                     </p>
                     <div class="flex justify-center mt-6">
                       <Link
-                        href="https://ab-africanprojects.com/irrifarm_demo/"
+                        href="/DEFI"
                         class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3"
                       >
-                        View Startup
+                        View Course
                       </Link>
                     </div>
                   </div>
@@ -332,157 +222,84 @@ export default function Home() {
                   <div class="p-4 flex flex-col">
                     <div class="rounded-xl overflow-hidden">
                       <img
-                        src="./img/Usafi.png"
+                        src="./img/blockchain-betty.jpg"
                         class="h-64 w-full"
                         alt="Startup Image"
                       ></img>
                     </div>
                     <div class="flex items-center">
                       <h5 class="text-2xl md:text-2xl font-Inter font-extrabold text-[#009A9A] text-center mt-4">
-                        Usafi Sanitation
+                        Introduction to Crypto Currencies
                       </h5>
                     </div>
                     <p class="text-black-700 md:text-m lg:text-base xl-text-l font-extrabold font-roboto mt-3">
-                      {" "}
-                      Our vision is to improve sanitation, enhance lives and
-                      improve human dignity and eliminate sanitation challenges
-                      by ensuring people access proper sanitation by providing
-                      Eco Friendly sanitation solutions.
+                      This course offers a comprehensive introduction to the
+                      core principles of digital currencies, the workings of
+                      blockchain technology, and the essential tools required
+                      for navigating the evolving landscape of cryptocurrencies.
+                     
                     </p>
                     <div class="flex justify-center mt-3">
                       <Link
-                        href="https://ab-africanprojects.com/usafi-sanitation_demo/"
+                        href="/Crypto"
                         class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3"
                       >
-                        View Startup
+                        View Course
                       </Link>
                     </div>
                   </div>
                 </div>
-
-                <div className="container mx-auto">
-                  <div className="max-w-xs mx-auto">
-                    <div className="rounded-xl shadow-lg bg-white">
-                      <div className="p-4 flex flex-col">
-                        <div className="rounded-xl overflow-hidden">
-                          <img
-                            src="./img/Scanpay.jpeg"
-                            className="h-64 w-full"
-                            alt="Startup Image"
-                          />
-                        </div>
-                        <h5 className="text-2xl md:text-2xl text-[#009A9A] font-Inter font-extrabold mt-4">
-                          Auspicious Blockchain
-                        </h5>
-                        <p className="text-black-500 lg:text-base xl:text-l md:text-base font-extrabold font-roboto mt-3">
-                          Auspicious Blockchain allows you to invest in Africa
-                          and Growth Markets using a Blockchain platform and
-                          infrastructure to enable crowdfunding and funding
-                          development by the African Diaspora.
-                        </p>
-                        <div className="flex justify-center mt-3">
-                          <Link
-                            href="https://ab-africanprojects.com/scanpay_demo/"
-                            className="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3"
-                          >
-                            View Startup
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
 
-                       {/**start of Features 
-              <div className="container ">
-                <div className="max-w-xs mx-auto">
-                  <div className="rounded-xl shadow-lg -ml-10 bg-white">
-                    <div className="p-4 flex flex-col">
-                      <div className="rounded-xl overflow-hidden">
-                        <img
-                          src="./img/Uamuzi.png"
-                          className="h-64 w-full"
-                          alt="Startup Image"
-                        />
-                      </div>
-                      <h5 className="text-2xl md:text-2xl text-[#009A9A] font-Inter font-extrabold mt-4">
-                        Uamuzi
-                      </h5>
-                      <p className="text-black-500 lg:text-base xl:text-l md:text-base font-extrabold font-roboto mt-3">
-                        A Social networking platform advocating for youth
-                        participation in governance and peacebuilding in Kenya
-                        and Africa.
-                      </p>
-                      <div className="flex justify-center mt-3">
-                        <Link
-                          href="https://uamuzi.org/"
-                          className="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3"
-                        >
-                          View Startup
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              */}
-              {/**start of Features */}
               <section class="mx-auto flex max-w-lg flex-col px-14 py-20 -mb-28  lg:max-w-screen-xl lg:flex-row">
-              
                 <div class="">
-                
                   <h2 class="mb-10  text-4xl font-bold leading-snug lg:text-5xl lg:leading-snug">
                     A <span class="text-[#009A9A] ">revolutionary</span> way to
-                  Support African Startups
+                    Learn about the Blockchain
                   </h2>
                   <div class="grid mt-4 py-8 gap-y-12 gap-x-8 lg:grid-cols-2">
                     <div>
                       <p class="mb-6 border-l-4 border-[#009A9A]  pl-4 text-2xl leading-10">
-                      Blockchain-Powered Investment Platform:
+                        Diverse Course Selection
                       </p>
                       <p class="text-lg text-gray-800">
-                      Milala utilizes cutting-edge blockchain technology to provide a secure and transparent investment platform.
+                        Embark on your blockchain journey with our diverse range
+                        of courses tailored for all skill levels. Covering
+                        fundamental principles to cutting-edge applications, our
+                        curriculum caters to every learner.
                       </p>
                     </div>
                     <div>
                       <p class="mb-6 border-l-4 border-[#009A9A]  pl-4 text-2xl leading-10">
-                      Support for African Startups:
+                        Industry-Recognized Instructors
                       </p>
                       <p class="text-lg text-gray-800">
-                      Milala specializes in supporting startups in Africa and the Diaspora, fostering economic growth and innovation.
+                        Learn from top-tier industry professionals, blockchain
+                        experts, and developers. Benefit from their expertise
+                        through live sessions, webinars, and interactive
+                        learning experiences.
                       </p>
                     </div>
                     <div>
                       <p class="mb-6 border-l-4 border-[#009A9A]  pl-4 text-2xl leading-10">
-                      Easy Investing Anywhere:
+                        Real-Life Blockchain Use Cases
                       </p>
                       <p class="text-lg text-gray-800">
-                      Users can easily invest in African startups from anywhere in the world through Milala's user-friendly platform.
+                        Explore practical use cases across multiple industries.
+                        Gain insights into how blockchain revolutionizes
+                        finance, healthcare, supply chain, and other sectors
+                        through real-life case studies.
                       </p>
                     </div>
                     <div>
                       <p class="mb-6 border-l-4 border-[#009A9A]  pl-4 text-2xl leading-10">
-                      Massive ROI Opportunities:
+                        Updated Content & Emerging Trends
                       </p>
                       <p class="text-lg text-gray-800">
-                      Milala offers investment opportunities with the potential for significant return on investment (ROI).
-                      </p>
-                    </div>
-                    <div>
-                      <p class="mb-6 border-l-4 border-[#009A9A]  pl-4 text-2xl leading-10">
-                      Startup Listing Service:
-                      </p>
-                      <p class="text-lg text-gray-800">
-                      Founders can list their startups on Milala, gaining exposure to potential investors and supporters.
-                      </p>
-                    </div>
-                    <div>
-                      <p class="mb-6 border-l-4 border-[#009A9A]  pl-4 text-2xl leading-10">
-                      Transparent Investment Process
-                      </p>
-                      <p class="text-lg text-gray-800">
-                     As a DAO,(Decentralized Autonomous Organization) Milala maintains transparency in the investment process, providing users with insights into where their investments go.
+                        Stay ahead with the latest advancements in blockchain
+                        technology. Our content is regularly updated to reflect
+                        the newest trends, ensuring you learn the most relevant
+                        information.
                       </p>
                     </div>
                   </div>
@@ -500,13 +317,13 @@ export default function Home() {
                 <div class=" flex items-center justify-center text-[#009A9A]  font-Inter text-[45px] font-normal">
                   <div className="text-[#009A9A] font-extrabold  ">
                     <p class=" text-[#000000] text-[42px] md:text-[48px] leading-[49.59px] pb-0 mb-0 w-[100%] ">
-                      Support an African{" "}
+                      Explore Our{" "}
                     </p>
-                    <p>Startup</p>
+                    <p>Courses Today</p>
                     <div className="flex font-Inter font-normal text-[13px] mt-5">
                       <div className=" ">
                         <button class="bg-gradient-to-r from-cyan-500 bg-[#1E242C] mr-2 hover:bg-[#009A9A] text-white py-3 px-4 rounded-full">
-                          Support a Startup
+                          Take a Course
                         </button>
                       </div>
                     </div>
@@ -514,18 +331,19 @@ export default function Home() {
                 </div>
               </div>
               <div className="text-[#009A9A] font-extrabold  ">
-              <h2 class="mt-16 text-4xl text-center font-bold leading-snug lg:text-5xl lg:leading-snug">
-                   Contact Us<span class="text-black "> to
-                  Support African</span> Startups or List one
-                  </h2>
-                    
-                  </div>
+                <h2 class="mt-16 text-4xl text-center font-bold leading-snug lg:text-5xl lg:leading-snug">
+                  Contact Us<span class="text-black "> to get in touch</span>{" "}
+                  with our instructors
+                </h2>
+              </div>
               {/**Start of Contact */}
               <div class="sm:p-10 -mt-6 mx-20 font-inter my-auto">
                 <section class="max-w-screen-xl md:rounded-md  md:shadow-lg">
                   <div class="grid grid-cols-4 text-gray-800 lg:grid-cols-3">
                     <div class="col-span-4 px-8 py-10 text-gray-800 md:col-span-2  md:px-10 md:py-12 lg:col-span-1">
-                      <h2 class="mb-8 text-2xl text-center text-[#009A9A] font-black">Our Contact Details</h2>
+                      <h2 class="mb-8 text-2xl text-center text-[#009A9A] font-black">
+                        Our Contact Details
+                      </h2>
                       <ul>
                         <li class="mb-6 flex font-body items-start text-left">
                           <svg
@@ -548,7 +366,7 @@ export default function Home() {
                               class="cursor-pointer font-inter text-base md:text-lg"
                               href="#"
                             >
-                             milala@support.com
+                              milalacourses@support.com
                             </a>
                             <span class="block text-xs uppercase">email</span>
                           </div>
@@ -609,11 +427,13 @@ export default function Home() {
                       </ul>
                     </div>
                     <div class="order-first col-span-4 max-w-screen-md px-8 py-10 md:order-last md:col-span-2 md:px-10 md:py-12">
-                      <h2 class="mb-8 text-2xl text-center text-[#009A9A]  font-black">Send us a Message</h2>
-                    
+                      <h2 class="mb-8 text-2xl text-center text-[#009A9A]  font-black">
+                        Send us a Message
+                      </h2>
+
                       <form action="">
                         <div class="md:col-gap-4 mb-5 grid md:grid-cols-2">
-                        <input
+                          <input
                             class="col-span-1 w-full border-none py-3 text-md outline-none "
                             type="name"
                             placeholder="Name"
@@ -667,11 +487,8 @@ export default function Home() {
 
               <div className="flex   mt-24 bg-black-400 bg-black  justify-between  border-red-400  mx-auto item-center tracking-tighter">
                 <div class="flex flex-col md:flex-row  mt-10 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter">
-                  <div className="mb-10 bg-milala-footer bg-50% bg-no-repeat pt-40 md:pt-1 mr-10 h-[210px] w-[100%] rounded-3xl border-[#f1fafa] drop-shadow-xl text-[#009A9A] space-y-5">
-                    <p>
-                      Milala uses the Blockchain technology to help you Support
-                      Startupes and Startups with massive ROI{" "}
-                    </p>
+                  <div className="mb-20 bg-milala-footer bg-50% bg-no-repeat pt-40 md:pt-1 mr-10 h-[210px] w-[100%] rounded-3xl border-[#f1fafa] drop-shadow-xl text-[#009A9A] space-y-5">
+                    <p>(c)MilaSchool 2023. All Rights Reserved </p>
                   </div>
                   <div className="flex ">
                     <div className="h-[210px] w-[250px] rounded-3xl border-[#f1fafa] drop-shadow-xl text-[#009A9A] space-y-5">
