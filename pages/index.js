@@ -367,9 +367,11 @@ export default function Home() {
                     <p>Courses Today</p>
                     <div className="flex font-Inter font-normal text-[13px] mt-5">
                       <div className=" ">
+                        <Link href="/#courses">
                         <button class="bg-gradient-to-r from-cyan-500 bg-[#1E242C] mr-2 hover:bg-[#009A9A] text-white py-3 px-4 rounded-full">
                           Take a Course
                         </button>
+                        </Link>
                       </div>
                     </div>
                   </div>
