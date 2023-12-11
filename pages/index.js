@@ -126,7 +126,7 @@ export default function Home() {
           <div className="bg-hero-mid h-[900px] bg-no-repeat bg-50% bg-top">
             <div className="flex flex-col md:flex-row mt-10 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter">
               <div class="text-[#009A9A] font-roboto text-[35px] md:text-[45px] font-normal ">
-                <span className="text-[#009A9A] font-extrabold">Milala</span> |
+                <span className="text-[#009A9A] font-extrabold">MilaSchool</span> |
                 Easy Learning About the Blockchain from anywhere!
               </div>
             </div>
@@ -141,7 +141,7 @@ export default function Home() {
                     <p class="text-[#000000] text-[48px] leading-[39.59px] md:leading-[19.59px]  pb-0 mb-0 w-[100%] ">
                       Recent Courses{" "}
                     </p>
-                    <p>Listed on Milala</p>{" "}
+                    <p>Listed on MilaSchool</p>{" "}
                     <div className="flex font-Inter font-normal text-[13px] mt-5"></div>
                   </span>
                 </div>
@@ -508,10 +508,10 @@ export default function Home() {
                     </div>
 
                     <div className="h-[210px] w-[250px] rounded-3xl border-[#f1fafa] drop-shadow-xl text-[#009A9A] space-y-5">
-                      <p className="font-bold mb-7">More </p>
+                      <p className="font-bold mb-7">Need Help? </p>
                       <span className="text-sm space-y-5">
                         <p>FAQ</p>
-                        <p>For Investors Us </p>
+                       
                         <p>Contact Us</p>
                       </span>
                     </div>
