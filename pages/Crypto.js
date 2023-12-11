@@ -6,7 +6,102 @@ import Link from "next/link";
 const MyProjects = () => {
   return (
     <>
-      <div class="w-screen bg-white pt-20">
+         <section id="Navbar" class="rounded-xl fixed top-0 w-full overflow-y-auto z-50">
+        <nav class="rounded-[20px] bg-white fixed  w-10/12 -mt-4 top-4 lg:left-28  right-3 left-3">
+          <div class="max-w-screen-xl flex flex-wrap items-center  -pb-3 justify-between mx-auto p-2">
+            <Link href="/" class="flex sm:items-center items-center">
+              <Image
+                src="./img/milala-logo.svg"
+                class="h-12 w-20 mt-3 mr-3"
+                alt="Milala Logo"
+                height={20}
+                width={20}
+              ></Image>
+              <span class="self-center text-[#009A9A] -ml-7 font-inter text-2xl  font-semibold whitespace-nowrap ">
+                MilaSchool
+              </span>
+            </Link>
+            <div class="flex md:order-2">
+              <div class="text-gray text-sm px-4 py-2 text-center mr-3 md:mr-0 ">
+              <div className="flex font-Inter font-normal text-[13px]">
+                <Link href="#courses">
+                <div className="">
+                  <button class="bg-gradient-to-r from-cyan-500 bg-[#1E242C] mr-2 hover:bg-[#009A9A] text-white py-3 px-4 rounded-full">
+                    Explore Courses
+                  </button>
+                </div>
+                </Link>
+              </div>
+              </div>
+              <button
+                data-collapse-toggle="navbar-sticky"
+                type="button"
+                class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-transparent focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-sticky"
+                aria-expanded="false"
+              >
+                <span class="sr-only">Open main menu</span>
+                <svg
+                  class="w-6 h-6"
+                  aria-hidden="true"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <div
+              class="items-center justify-between hidden w-full  md:flex md:w-auto md:order-1"
+              id="navbar-sticky"
+            >
+              <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border text-center border-gray-100  md:flex-row md:space-x-8 md:mt-0 md:border-0 bg-transparent ">
+                <li>
+                  <Link
+                    href="/"
+                    class="block py-2 pl-3 pr-4 text-gray-900 bg-transparent rounded-xl  hover:text-teal md:bg-transparent md:p-0 md:dark:text-blue-500"
+                    aria-current="page"
+                  >
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/#courses"
+                    class="block py-2 pl-3 pr-4 text-gray-900  hoveroundedr:bg-teal-700 hover:text-teal-700 700 md:p-0 dark:text-gray dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent dark:border-gray-700"
+                  >
+                   Courses
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/#features"
+                    class="block py-2 pl-3 pr-4 text-gray-900   hover:text-teal-700  md:p-0 md:dark:hover:text-blue-500 dark:text-gray dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent dark:border-gray-700"
+                  >
+                    Features
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/#contact"
+                    class="block py-2 pl-3 pr-4 text-gray-900  hover:text-teal-700 md:p-0 "
+                  >
+                    Contact Us
+                  </Link>
+                </li>
+                
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <div class="w-screen bg-white  pt-20">
         <main class="relative mx-auto px-10 md:max-w-screen-md">
           <div class="top-20 -left-56 mb-10 w-full max-w-xs rounded-md border bg-white px-6 py-6 shadow-md lg:absolute lg:w-56">
             <div class="pb-2 text-xl font-medium text-teal-600">
@@ -73,7 +168,7 @@ const MyProjects = () => {
             </div>
           </div>
           <article class="text-gray-800">
-            <h2 class="mb-10 -mt-6 text-4xl font-bold leading-snug lg:text-5xl lg:leading-snug">
+            <h2 class="mb-10 mt-4 text-4xl font-bold leading-snug lg:text-5xl lg:leading-snug">
               <span class="text-[#009A9A] ">
                 Introduction to (Crypto Currencies)
               </span>
