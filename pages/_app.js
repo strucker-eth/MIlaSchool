@@ -8,6 +8,7 @@ import { mainnet, polygon, optimism, arbitrum, polygonMumbai, bsc, bscTestnet} f
 import { alchemyProvider } from 'wagmi/providers/alchemy';
 import { publicProvider } from 'wagmi/providers/public';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const { chains, provider } = configureChains(
   [mainnet, polygon, optimism, arbitrum, polygonMumbai, bsc, bscTestnet],
@@ -51,6 +52,7 @@ function MyApp({ Component, pageProps }) {
     <Component {...pageProps} />
     </RainbowKitProvider>
    <Analytics> </Analytics >
+   <SpeedInsights></SpeedInsights>
   </WagmiConfig>
     
      </>
