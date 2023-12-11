@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <head>
-        <title>Milala</title>
+        <title>MilaSchool</title>
         <link rel="icon" href="/favicon.ico" />
         <script src="/path/to/flowbite/dist/flowbite.min.js" />
         <link
@@ -33,7 +33,7 @@ export default function Home() {
                 width={20}
               ></Image>
               <span class="self-center text-[#009A9A] -ml-7 font-inter text-2xl  font-semibold whitespace-nowrap ">
-                Milala
+                MilaSchool
               </span>
             </Link>
             <div class="flex md:order-2">
@@ -494,9 +494,8 @@ export default function Home() {
                     <div className="h-[210px] w-[250px] rounded-3xl border-[#f1fafa] drop-shadow-xl text-[#009A9A] space-y-5">
                       <p className="font-bold mb-7">Account </p>
                       <span className="text-sm space-y-5">
-                        <p>My Portfolio </p>
-                        <p>Sign Up </p>
-                        <p>Login </p>
+                        <p>My Courses </p>
+                        
                       </span>
                     </div>
 
