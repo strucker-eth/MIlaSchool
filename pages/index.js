@@ -522,11 +522,11 @@ export default function Home() {
               <div className="flex bg-black-400 border-t-zinc-600 bg-black  justify-between  border-red-400  mx-auto item-center tracking-tighter">
                 <div class="flex border-t-[0.5px] border-t-[#054d4d] mt-10 bg-black-400 justify-center  w-10/12 border-red-400  mx-auto item-center tracking-tighter">
                   <div className="flex  flex-col h-[100px] items-center text-[#7da7a7] pt-10  text-sm">
-                    <p className="">(c) Milala 2023. All Rights Reserved</p>
+                    <p className=""> &#169; MilaSchool 2023. All Rights Reserved</p>
                     <p>
                       Powered by:{" "}
                       <span className=" text-lg font-semibold">
-                        Auspicious Blockchain
+                      &#169;Milala 2023, &#169;Auspicious Blockchain 2023
                       </span>
                     </p>
                   </div>
