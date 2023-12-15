@@ -304,7 +304,7 @@ export default function Home() {
                     </div>
                     <div class="flex items-center">
                       <h5 class="text-2xl md:text-2xl font-Inter font-extrabold text-[#009A9A] text-center mt-4">
-                        How to create and use a wallet
+                        How to create and use a  Crypto Wallet
                       </h5>
                     </div>
                     <p class="text-black-700 md:text-m lg:text-base xl-text-l font-extrabold font-roboto mt-3">
