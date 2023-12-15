@@ -201,7 +201,7 @@ export default function Home() {
                     <div class="rounded-xl overflow-hidden">
                       <img
                         src="./img/blockchain.jpg"
-                        class="h-64 w-full"
+                        class="h-auto w-full"
                         alt="Startup Image"
                       ></img>
                     </div>
@@ -232,8 +232,8 @@ export default function Home() {
                   <div class="p-4 flex flex-col">
                     <div class="rounded-xl overflow-hidden">
                       <img
-                        src="./img/scanpay.jpg"
-                        class="h-64 w-full"
+                        src="./img/DEFI.jpg"
+                        class="h-auto w-full"
                         alt="Startup Image"
                       ></img>
                     </div>
@@ -263,8 +263,8 @@ export default function Home() {
                   <div class="p-4 flex flex-col">
                     <div class="rounded-xl overflow-hidden">
                       <img
-                        src="./img/blockchain-betty.jpg"
-                        class="h-64 w-full"
+                        src="./img/crypto.jpg"
+                        class="h-auto w-full"
                         alt="Startup Image"
                       ></img>
                     </div>
@@ -297,7 +297,7 @@ export default function Home() {
                     <div class="rounded-xl overflow-hidden">
                       <img
                         src="./img/wallet.jpg"
-                        class="h-64 w-full"
+                        class="h-auto w-full"
                         alt="Startup Image"
                       ></img>
                     </div>
