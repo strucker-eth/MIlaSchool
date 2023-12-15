@@ -193,12 +193,6 @@ export default function Home() {
                   </span>
                 </div>
 
-                <div class="flex flex-col border-gray-400 justify-center text-[#009A9A]">
-                  <div class="flex justify-end  text-[20px] font-bold">
-                    View More Courses{" "}
-                    <img class="w-[19px] ml-3" src="./img/arrow.svg" />
-                  </div>
-                </div>
               </div>
 
               <div class="grid grid-cols-1 px-14 md:grid-flow-col w-full md:grid-cols-2 lg:grid-cols-4 gap-5 mt-5 mb-2 rounded-20 md:ml-2  md:flex items-center justify-evenly content-start">
@@ -289,6 +283,39 @@ export default function Home() {
                     <div class="flex justify-center mt-3">
                       <Link
                         href="/Crypto"
+                        class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3"
+                      >
+                        View Course
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+
+                
+                <div class="rounded-xl max-w-xs shadow-lg bg-white  ">
+                  <div class="p-4 flex flex-col">
+                    <div class="rounded-xl overflow-hidden">
+                      <img
+                        src="./img/wallet.jpg"
+                        class="h-64 w-full"
+                        alt="Startup Image"
+                      ></img>
+                    </div>
+                    <div class="flex items-center">
+                      <h5 class="text-2xl md:text-2xl font-Inter font-extrabold text-[#009A9A] text-center mt-4">
+                    How to create and use a wallet
+                      </h5>
+                    </div>
+                    <p class="text-black-700 md:text-m lg:text-base xl-text-l font-extrabold font-roboto mt-3">
+           A digital wallet serves as your virtual
+pocket, allowing you to securely store, send, and receive various cryptocurrencies and digital
+assets.If you&#39;re new to the world of digital currencies and online transactions, creating a digital wallet is
+your first step towards navigating this exciting landscape.This  simple guide will help you get started:
+                     
+                    </p>
+                    <div class="flex justify-center mt-3">
+                      <Link
+                        href="/Wallets"
                         class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3"
                       >
                         View Course
