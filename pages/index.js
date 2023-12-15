@@ -386,7 +386,7 @@ export default function Home() {
                 <div class="flex  flex-col border-gray-400 justify-center text-[#009A9A]">
                   <div class="flex  text-[20px] font-bold ">
                     {" "}
-                    <img class="w-[650px]" src="./img/bottom-left.png" />
+                    <img class="w-[650px]" src="./img/explore.jpg" />
                   </div>
                 </div>
                 <div class=" flex items-center justify-center text-[#009A9A]  font-Inter text-[45px] font-normal">
