@@ -41,11 +41,13 @@ export default function Home() {
               <div className="flex font-Inter font-normal text-[13px]">
                 <Link href="#courses">
                 <div className="">
-                  <button class="bg-gradient-to-r from-cyan-500 bg-[#1E242C] mr-2 hover:bg-[#009A9A] text-white py-3 px-4 rounded-full">
+                  <button class="bg-gradient-to-r from-cyan-500 bg-[#1E242C] mr-2 hover:bg-[#009A9A] text-white py-2 px-4 rounded-full">
                     Explore Courses
                   </button>
                 </div>
                 </Link>
+                <div class="text-gray  text-sm px-4  text-center mr-3 md:mr-0 "> <ConnectButton class="rounded-full font-Inter bg-gradient-to-r from-cyan-500 bg-[#1E242C]">  </ConnectButton> </div>
+   
               </div>
               </div>
               <button
