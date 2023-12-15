@@ -38,17 +38,21 @@ export default function Home() {
             </Link>
             <div class="flex md:order-2">
               <div class="text-gray text-sm px-4 py-2 text-center mr-3 md:mr-0 ">
-              <div className="flex font-Inter font-normal text-[13px]">
-                <Link href="#courses">
-                <div className="">
-                  <button class="bg-gradient-to-r from-cyan-500 bg-[#1E242C] mr-2 hover:bg-[#009A9A] text-white py-2 px-4 rounded-full">
-                    Explore Courses
-                  </button>
+                <div className="flex font-Inter font-normal text-[13px]">
+                  <Link href="#courses">
+                    <div className="">
+                      <button class="bg-gradient-to-r from-cyan-500 bg-[#1E242C] mr-2 hover:bg-[#009A9A] text-white py-2 px-4 rounded-full">
+                        Explore Courses
+                      </button>
+                    </div>
+                  </Link>
+                  <div class="text-gray  text-sm px-4  text-center mr-3 md:mr-0 ">
+                    {" "}
+                    <ConnectButton class="rounded-full font-Inter bg-gradient-to-r from-cyan-500 bg-[#1E242C]">
+                      {" "}
+                    </ConnectButton>{" "}
+                  </div>
                 </div>
-                </Link>
-                <div class="text-gray  text-sm px-4  text-center mr-3 md:mr-0 "> <ConnectButton class="rounded-full font-Inter bg-gradient-to-r from-cyan-500 bg-[#1E242C]">  </ConnectButton> </div>
-   
-              </div>
               </div>
               <button
                 data-collapse-toggle="navbar-sticky"
@@ -92,7 +96,7 @@ export default function Home() {
                     href="#courses"
                     class="block py-2 pl-3 pr-4 text-gray-900  hoveroundedr:bg-teal-700 hover:text-teal-700 700 md:p-0 dark:text-gray dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent dark:border-gray-700"
                   >
-                   Courses
+                    Courses
                   </Link>
                 </li>
                 <li>
@@ -111,8 +115,6 @@ export default function Home() {
                     Contact Us
                   </Link>
                 </li>
-                
-                
               </ul>
             </div>
           </div>
@@ -149,11 +151,11 @@ export default function Home() {
               </div>
               <div className="flex font-Inter font-normal text-[13px]">
                 <Link href="#courses">
-                <div className="">
-                  <button class="bg-gradient-to-r from-cyan-500 bg-[#1E242C] mr-2 hover:bg-[#009A9A] text-white py-3 px-4 rounded-full">
-                    Explore Courses
-                  </button>
-                </div>
+                  <div className="">
+                    <button class="bg-gradient-to-r from-cyan-500 bg-[#1E242C] mr-2 hover:bg-[#009A9A] text-white py-3 px-4 rounded-full">
+                      Explore Courses
+                    </button>
+                  </div>
                 </Link>
               </div>
             </div>
@@ -173,26 +175,27 @@ export default function Home() {
           <div className="bg-hero-mid h-[900px] bg-no-repeat bg-50% bg-top">
             <div className="flex flex-col md:flex-row mt-10 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter">
               <div class="text-[#009A9A] font-roboto text-[35px] md:text-[45px] font-normal ">
-                <span className="text-[#009A9A] font-extrabold">MilaSchool</span> |
-                Easy Learning About the Blockchain from anywhere!
+                <span className="text-[#009A9A] font-extrabold">
+                  MilaSchool
+                </span>{" "}
+                | Easy Learning About the Blockchain from anywhere!
               </div>
             </div>
 
-            <div
-             
-              className="bg-hero-bottom h-[1500px] bg-no-repeat bg-50%"
-            >
-              <div  className="flex  mt-10 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter">
+            <div className="bg-hero-bottom h-[1500px] bg-no-repeat bg-50%">
+              <div className="flex  mt-10 bg-black-400  justify-between w-10/12 border-red-400  mx-auto item-center tracking-tighter">
                 <div class="text-[#009A9A] font-Inter text-[45px] font-normal">
-                  <span  className="text-[#009A9A] font-extrabold">
-                    <p id="courses" class="text-[#000000] text-[48px] leading-[39.59px] md:leading-[19.59px]  pb-0 mb-0 w-[100%] ">
+                  <span className="text-[#009A9A] font-extrabold">
+                    <p
+                      id="courses"
+                      class="text-[#000000] text-[48px] leading-[39.59px] md:leading-[19.59px]  pb-0 mb-0 w-[100%] "
+                    >
                       Recent Courses{" "}
                     </p>
                     <p>Listed on MilaSchool</p>{" "}
                     <div className="flex font-Inter font-normal text-[13px] mt-5"></div>
                   </span>
                 </div>
-
               </div>
 
               <div class="grid grid-cols-1 px-14 md:grid-flow-col w-full md:grid-cols-2 lg:grid-cols-4 gap-5 mt-5 mb-2 rounded-20 md:ml-2  md:flex items-center justify-evenly content-start">
@@ -278,7 +281,6 @@ export default function Home() {
                       core principles of digital currencies, the workings of
                       blockchain technology, and the essential tools required
                       for navigating the evolving landscape of cryptocurrencies.
-                     
                     </p>
                     <div class="flex justify-center mt-3">
                       <Link
@@ -291,7 +293,6 @@ export default function Home() {
                   </div>
                 </div>
 
-                
                 <div class="rounded-xl max-w-xs shadow-lg bg-white  ">
                   <div class="p-4 flex flex-col">
                     <div class="rounded-xl overflow-hidden">
@@ -303,15 +304,15 @@ export default function Home() {
                     </div>
                     <div class="flex items-center">
                       <h5 class="text-2xl md:text-2xl font-Inter font-extrabold text-[#009A9A] text-center mt-4">
-                    How to create and use a wallet
+                        How to create and use a wallet
                       </h5>
                     </div>
                     <p class="text-black-700 md:text-m lg:text-base xl-text-l font-extrabold font-roboto mt-3">
-           A digital wallet serves as your virtual
-pocket, allowing you to securely store, send, and receive various cryptocurrencies and digital
-assets.If you&#39;re new to the world of digital currencies and online transactions, creating a digital wallet is
-your first step towards navigating this exciting landscape.This  simple guide will help you get started:
-                     
+                      Interested in exploring digital currencies and online
+                      transactions? Start by setting up a digital wallet—it's
+                      like your virtual pocket for securely storing, sending,
+                      and receiving various cryptocurrencies and digital assets.
+                      This simple course will help you get started.
                     </p>
                     <div class="flex justify-center mt-3">
                       <Link
@@ -397,9 +398,9 @@ your first step towards navigating this exciting landscape.This  simple guide wi
                     <div className="flex font-Inter font-normal text-[13px] mt-5">
                       <div className=" ">
                         <Link href="/#courses">
-                        <button class="bg-gradient-to-r from-cyan-500 bg-[#1E242C] mr-2 hover:bg-[#009A9A] text-white py-3 px-4 rounded-full">
-                          Take a Course
-                        </button>
+                          <button class="bg-gradient-to-r from-cyan-500 bg-[#1E242C] mr-2 hover:bg-[#009A9A] text-white py-3 px-4 rounded-full">
+                            Take a Course
+                          </button>
                         </Link>
                       </div>
                     </div>
@@ -571,7 +572,6 @@ your first step towards navigating this exciting landscape.This  simple guide wi
                       <p className="font-bold mb-7">Account </p>
                       <span className="text-sm space-y-5">
                         <p>My Courses </p>
-                        
                       </span>
                     </div>
 
@@ -587,7 +587,7 @@ your first step towards navigating this exciting landscape.This  simple guide wi
                       <p className="font-bold mb-7">Need Help? </p>
                       <span className="text-sm space-y-5">
                         <p>FAQ</p>
-                       
+
                         <p>Contact Us</p>
                       </span>
                     </div>
@@ -598,11 +598,14 @@ your first step towards navigating this exciting landscape.This  simple guide wi
               <div className="flex bg-black-400 border-t-zinc-600 bg-black  justify-between  border-red-400  mx-auto item-center tracking-tighter">
                 <div class="flex border-t-[0.5px] border-t-[#054d4d] mt-10 bg-black-400 justify-center  w-10/12 border-red-400  mx-auto item-center tracking-tighter">
                   <div className="flex  flex-col h-[100px] items-center text-[#7da7a7] pt-10  text-sm">
-                    <p className=""> &#169; MilaSchool 2023. All Rights Reserved</p>
+                    <p className="">
+                      {" "}
+                      &#169; MilaSchool 2023. All Rights Reserved
+                    </p>
                     <p>
                       Powered by:{" "}
                       <span className=" text-lg font-semibold">
-                      &#169;Milala 2023, &#169;Auspicious Blockchain 2023
+                        &#169;Milala 2023, &#169;Auspicious Blockchain 2023
                       </span>
                     </p>
                   </div>
