@@ -200,7 +200,7 @@ export default function Home() {
                   <div class="p-4 flex flex-col">
                     <div class="rounded-xl overflow-hidden">
                       <img
-                        src="./img/BLOCKCHAIN-DEVELOPMENT-3.jpg"
+                        src="./img/blockchain.jpg"
                         class="h-64 w-full"
                         alt="Startup Image"
                       ></img>
