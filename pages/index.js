@@ -293,6 +293,37 @@ export default function Home() {
                   </div>
                 </div>
 
+                <div class="rounded-xl max-w-xs shadow-lg bg-white  ">
+                  <div class="p-4 flex flex-col">
+                    <div class="rounded-xl overflow-hidden">
+                      <img
+                        src="./img/wallet.jpg"
+                        class="h-fill w-fill"
+                        alt="Startup Image"
+                      ></img>
+                    </div>
+                    <div class="flex items-center">
+                      <h5 class="text-2xl md:text-2xl font-Inter font-extrabold text-[#009A9A] text-center mt-4">
+                        How to create and use a wallet
+                      </h5>
+                    </div>
+                    <p class="text-black-700 md:text-m lg:text-base xl-text-l font-extrabold font-roboto mt-3">
+                      Interested in exploring digital currencies and online
+                      transactions? Start by setting up a digital wallet—it's
+                      like your virtual pocket for securely storing, sending,
+                      and receiving various cryptocurrencies and digital assets.
+                      This simple course will help you get started.
+                    </p>
+                    <div class="flex justify-center mt-3">
+                      <Link
+                        href="#"
+                        class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3"
+                      >
+                        View Course
+                      </Link>
+                    </div>
+                  </div>
+                </div>
               </div>
 
               <section class="mx-auto flex max-w-lg flex-col px-14 py-20 -mb-28  lg:max-w-screen-xl lg:flex-row">
