@@ -316,7 +316,7 @@ export default function Home() {
                     </p>
                     <div class="flex justify-center mt-3">
                       <Link
-                        href="#"
+                        href="/Wallets"
                         class="border-2 text-[#009A9A] bg-white border-[#009A9A] hover:border-white hover:bg-[#1E242C] hover:text-[#009A9A] focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-sm px-5 py-2.5 mt-3"
                       >
                         View Course
