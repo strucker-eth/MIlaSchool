@@ -8,7 +8,7 @@ const Wallets = () => {
   return (
     <>
   
-  <section id="Navbar" class="rounded-xl fixed top-0 w-full">
+  <section id="Navbar" class="rounded-xl z-50 opacity-100 top-0 w-full bg-white shadow-lg">
         <nav class="rounded-[20px] bg-white fixed w-10/12 -mt-4 top-4 lg:left-28  right-3 left-3">
           <div class="max-w-screen-xl flex flex-wrap items-center  -pb-3 justify-between mx-auto p-2">
             <Link href="/" class="flex sm:items-center items-center">
@@ -107,6 +107,7 @@ const Wallets = () => {
           </div>
         </nav>
       </section>
+
       <div class="w-screen bg-white pt-20">
         <main class="relative mx-auto px-10 md:max-w-screen-md">
           <div class="top-20 -left-56 mb-10 w-full max-w-xs rounded-md border bg-white px-6 py-6 shadow-md lg:absolute lg:w-56">
@@ -136,7 +137,7 @@ const Wallets = () => {
                   class="mb-1 text-sm font-medium text-gray-600 hover:text-teal-600"
                   href="#section-3"
                 >
-                  Step-by-Step Guide on Creating a Blockchain Wallet with
+                 Creating a Blockchain Wallet with
                   MetaMask
                 </a>
               </div>
@@ -146,7 +147,7 @@ const Wallets = () => {
             <h2 class="mb-10 mt-4 text-4xl font-bold leading-snug lg:text-5xl lg:leading-snug">
               <span class="text-[#009A9A] ">
                 {" "}
-                How to create and use a wallet
+                How to Create and use a Wallet
               </span>
             </h2>
             <h2 id="section-one" class="mb-4 text-3xl font-bold">
