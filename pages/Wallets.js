@@ -228,63 +228,73 @@ cryptocurrencies.
             <h2 id="section-3" class="mb-4 text-3xl font-bold">
             Step-by-Step Guide on Creating a Blockchain Wallet with MetaMask
             </h2>
-            <p class="mb-10 text-gray-600">
+            <p class="mb-3 text-gray-600">
                           In the realm of blockchain and cryptocurrencies, having a secure and user-friendly wallet is
 paramount. MetaMask, a popular browser extension, offers a seamless way to manage your
 digital assets and interact with decentralized applications (dApps). This section will walk you
 through the process of creating a blockchain wallet using MetaMask.
             </p>
-            <p class="mb-8 p-4 text-gray-600">
-          <strong> Step 1: Install MetaMask Extension:
-</strong>  <br /> 
+            <p class="mb-3">
+<strong> Step 1: Install MetaMask Extension: </strong> <br />
 Open your preferred web browser (MetaMask is compatible with Chrome, Firefox, Edge, and
 Brave).
 Navigate to the official MetaMask website.
 Click on the "Download" button and follow the installation prompts.
-<br/>
+
 </p>
+<p>
 <strong> Step 2: Set Up Your Wallet: </strong> <br /> 
 Once installed, click on the MetaMask icon in your browser extensions.
 Choose "Create a Wallet" to initiate the setup process.
 Create a strong password for your wallet. Ensure it's unique and not easily guessable.
 Click "Create" and then reveal and save your unique backup seed phrase. This is crucial for
 account recovery, so store it securely offline.
-
+</p>
 <br />
+<p>
 <strong>Step 3: Confirm Your Seed Phrase:</strong>  <br /> 
 MetaMask will ask you to confirm your seed phrase by selecting the words in the correct order.
 This step ensures you've accurately recorded your backup phrase. Take your time to verify each
 word.
-
+</p>
 <br />
+<p>
 <strong> Step 4: Wallet Created!
 </strong>  <br /> 
 Congratulations! Your MetaMask wallet is now set up. You can now see your wallet address and
 balance directly within the MetaMask extension.
-
+</p>
 <br />
+<p>
 <strong> Step 5: Add Funds to Your Wallet:
 </strong>  <br /> 
 To add cryptocurrency to your wallet, click on the "Buy" button within MetaMask.
 Choose your preferred cryptocurrency and follow the prompts to purchase and deposit funds.
-
+</p>
 <br />
+<p class="mb-3">
 <strong> Step 6: Explore dApps:</strong>  <br /> 
 MetaMask allows you to interact with decentralized applications. Visit a dApp, and MetaMask
 will prompt you to connect your wallet.
 Confirm the connection, and you can now use the dApp seamlessly with your MetaMask wallet.
 <br />
+</p>
+<p>
 <strong> Step 7: Security Tips</strong>  <br /> 
 Enable two-factor authentication (2FA) for an added layer of security.
 Regularly update your MetaMask extension to benefit from the latest security features.
-<br class="mt-4" />
+
+</p>
 <p class="mt-4">
 Creating a blockchain wallet with MetaMask is a straightforward process that opens doors to the
 decentralized world of cryptocurrencies. With your secure wallet, you can manage your digital
 assets, explore decentralized applications, and participate in the growing blockchain ecosystem.
+<br />
+<br></br>
 Remember, always prioritize the security of your wallet by keeping your seed phrase private and
-implementing additional security features offered by MetaMask.
-Happy exploring in the decentralized universe with your MetaMask wallet!
+implementing additional security features offered by MetaMask. 
+<br></br><br />
+<strong>Happy exploring in the decentralized universe with your MetaMask wallet!</strong>
             </p>
           </article>
           <div class="my-5 flex mr-10 ml-10 items-center justify-center">
