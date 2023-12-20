@@ -332,7 +332,12 @@ const Wallets = () => {
               <strong>
                 <p class="text-center mb-4 text-teal-600">
                   Happy exploring in the decentralized universe with your
-                  MetaMask wallet!
+                  MetaMask wallet! <br /> <br></br>
+                  <span className="text-left">
+                    To test out your newly created wallet, click on the "Connect
+                    Wallet" button on the top right at the navigation bar and
+                    select Metamask on the pop-up.
+                  </span>
                 </p>
               </strong>
             </p>
