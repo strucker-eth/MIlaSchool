@@ -147,7 +147,7 @@ const Wallets = () => {
             <h2 id="section-one" class="mb-4 text-3xl font-bold">
               Introduction
             </h2>
-            <p class="mb-3 text-gray-600">
+            <p class="mb-3 text-gray-900">
               If you're new to the world of digital currencies and online
               transactions, creating a digital wallet is your first step towards
               navigating this exciting landscape. A digital wallet serves as
@@ -156,7 +156,7 @@ const Wallets = () => {
               <br></br>
               Here's a simple guide to help you get started:
             </p>
-            <p class="mb-8  text-gray-600">
+            <p class="mb-8  text-gray-900">
               <p class="mb-3">
                 <strong> Step 1: Choose Your Wallet Type</strong> <br />
                 There are different types of digital wallets, each catering to
@@ -231,7 +231,7 @@ const Wallets = () => {
             <h3 id="section-2" class="mb-4 text-3xl font-bold">
               Connect Wallet
             </h3>
-            <p class="mb-3 text-gray-600">
+            <p class="mb-3 text-gray-900">
               A Connect Wallet is a digital tool that allows users to securely
               store, manage, and interact with their cryptocurrencies and
               digital assets. It serves as a bridge between users and
@@ -239,14 +239,14 @@ const Wallets = () => {
               applications (DApps), trade digital assets, and participate in
               blockchain ecosystems.
             </p>
-            <p class="mb-3 text-gray-600">
+            <p class="mb-3 text-gray-900">
               Once you've set up a Connect Wallet, you can link it to various
               decentralized applications, such as decentralized exchanges or
               blockchain-based games. This connection allows you to seamlessly
               engage with these platforms while maintaining control over your
               assets without relying on a centralized authority.
             </p>
-            <p class="mb-3 text-gray-600">
+            <p class="mb-3 text-gray-900">
               Remember, security is paramount in the crypto space. Always use
               strong, unique passwords and enable additional security features
               like two-factor authentication. Understanding the basics of your
@@ -256,7 +256,7 @@ const Wallets = () => {
             <h2 id="section-3" class="mb-4 text-3xl font-bold">
               Step-by-Step Guide on Creating a Blockchain Wallet with MetaMask
             </h2>
-            <p class="mb-3 text-gray-600">
+            <p class="mb-3 text-gray-900">
               In the realm of blockchain and cryptocurrencies, having a secure
               and user-friendly wallet is paramount. MetaMask, a popular browser
               extension, offers a seamless way to manage your digital assets and
@@ -331,8 +331,8 @@ const Wallets = () => {
               <br />
               <strong>
                 <p class="text-center mb-4 text-teal-600">
-                Happy exploring in the decentralized universe with your MetaMask
-                wallet!
+                  Happy exploring in the decentralized universe with your
+                  MetaMask wallet!
                 </p>
               </strong>
             </p>
@@ -341,7 +341,7 @@ const Wallets = () => {
                 Choosing between MetaMask and Coinbase depends on your specific
                 needs.
               </h3>
-              <p class="mb-3 text-gray-600">
+              <p class="mb-3 text-gray-900">
                 MetaMask is a browser extension wallet primarily designed for
                 interacting with decentralized applications (DApps) on the
                 Ethereum blockchain. It offers a simple interface and is great
