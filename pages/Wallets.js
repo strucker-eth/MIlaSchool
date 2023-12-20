@@ -147,7 +147,7 @@ const Wallets = () => {
             <h2 class="mb-10 mt-4 text-4xl font-bold leading-snug lg:text-5xl lg:leading-snug">
               <span class="text-[#009A9A] ">
                 {" "}
-                How to Create and use a Wallet
+                How to Create and use a Blockchain Wallet
               </span>
             </h2>
             <h2 id="section-one" class="mb-4 text-3xl font-bold">
