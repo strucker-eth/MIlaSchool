@@ -2,15 +2,14 @@ import React from "react";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
+import { ConnectButton } from "@rainbow-me/rainbowkit";
 
 const Wallets = () => {
   return (
     <>
-      <section
-        id="Navbar"
-        class="rounded-xl fixed top-0 w-full overflow-y-auto z-50"
-      >
-        <nav class="rounded-[20px] bg-white fixed  w-10/12 -mt-4 top-4 lg:left-28  right-3 left-3">
+  
+  <section id="Navbar" class="rounded-xl fixed top-0 w-full">
+        <nav class="rounded-[20px] bg-white fixed w-10/12 -mt-4 top-4 lg:left-28  right-3 left-3">
           <div class="max-w-screen-xl flex flex-wrap items-center  -pb-3 justify-between mx-auto p-2">
             <Link href="/" class="flex sm:items-center items-center">
               <Image
@@ -29,11 +28,17 @@ const Wallets = () => {
                 <div className="flex font-Inter font-normal text-[13px]">
                   <Link href="#courses">
                     <div className="">
-                      <button class="bg-gradient-to-r from-cyan-500 bg-[#1E242C] mr-2 hover:bg-[#009A9A] text-white py-3 px-4 rounded-full">
+                      <button class="bg-gradient-to-r from-cyan-500 bg-[#1E242C] mr-2 hover:bg-[#009A9A] text-white py-2 px-4 rounded-full">
                         Explore Courses
                       </button>
                     </div>
                   </Link>
+                  <div class="text-gray  text-sm px-4  text-center mr-3 md:mr-0 ">
+                    {" "}
+                    <ConnectButton class="rounded-full font-Inter bg-gradient-to-r from-cyan-500 bg-[#1E242C]">
+                      {" "}
+                    </ConnectButton>{" "}
+                  </div>
                 </div>
               </div>
               <button
@@ -75,7 +80,7 @@ const Wallets = () => {
                 </li>
                 <li>
                   <Link
-                    href="/#courses"
+                    href="#courses"
                     class="block py-2 pl-3 pr-4 text-gray-900  hoveroundedr:bg-teal-700 hover:text-teal-700 700 md:p-0 dark:text-gray dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent dark:border-gray-700"
                   >
                     Courses
@@ -83,7 +88,7 @@ const Wallets = () => {
                 </li>
                 <li>
                   <Link
-                    href="/#features"
+                    href="#features"
                     class="block py-2 pl-3 pr-4 text-gray-900   hover:text-teal-700  md:p-0 md:dark:hover:text-blue-500 dark:text-gray dark:hover:bg-gray-700 dark:hover:text-gray md:dark:hover:bg-transparent dark:border-gray-700"
                   >
                     Features
@@ -91,7 +96,7 @@ const Wallets = () => {
                 </li>
                 <li>
                   <Link
-                    href="/#contact"
+                    href="#contact"
                     class="block py-2 pl-3 pr-4 text-gray-900  hover:text-teal-700 md:p-0 "
                   >
                     Contact Us
