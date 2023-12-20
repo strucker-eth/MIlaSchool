@@ -8,7 +8,7 @@ const Wallets = () => {
   return (
     <>
   
-  <section id="Navbar" class="rounded-xl z-50 opacity-100 top-0 w-full bg-white shadow-lg">
+  <section id="Navbar" class="rounded-xl fixed top-0 w-full overflow-y-auto z-50">
         <nav class="rounded-[20px] bg-white fixed w-10/12 -mt-4 top-4 lg:left-28  right-3 left-3">
           <div class="max-w-screen-xl flex flex-wrap items-center  -pb-3 justify-between mx-auto p-2">
             <Link href="/" class="flex sm:items-center items-center">
