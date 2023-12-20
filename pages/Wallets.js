@@ -310,6 +310,27 @@ implementing additional security features offered by MetaMask.
 <br></br><br />
 <strong>Happy exploring in the decentralized universe with your MetaMask wallet!</strong>
             </p>
+            <div className="mt-4">
+            <h3 id="section-5" class="mb-4 text-3xl font-bold">
+            Importance of Blockchain technology today 
+
+            </h3>
+            <p class="mb-10 text-gray-600">
+            A Paradigm shift is taking place in today's market and everything is
+becoming digitalized.
+Blockchain technology will soon be the Fourth Industrial Revolution.
+ The entire way we transact financially is changing and will be
+changed forever.eg remove fees on financial transactions.
+ Blockchain technology would remove physical contracts,
+replace voting systems, land registries and passports and also
+end the piracy of digital music, films, games, TV and other
+products.In addition to that , Blockchain is cheaper because it eliminates middlemen and
+hence there's no need to pay processing fees on transactions.
+
+
+            </p>
+            </div>
+
           </article>
           <div class="my-5 flex mr-10 ml-10 items-center justify-center">
             <Link href="/">
