@@ -229,8 +229,7 @@ cryptocurrencies.
             Step-by-Step Guide on Creating a Blockchain Wallet with MetaMask
             </h2>
             <p class="mb-10 text-gray-600">
-              In 1991 research scientist like Stuart Haber and W.Scott Stornetta
-              In the realm of blockchain and cryptocurrencies, having a secure and user-friendly wallet is
+                          In the realm of blockchain and cryptocurrencies, having a secure and user-friendly wallet is
 paramount. MetaMask, a popular browser extension, offers a seamless way to manage your
 digital assets and interact with decentralized applications (dApps). This section will walk you
 through the process of creating a blockchain wallet using MetaMask.
