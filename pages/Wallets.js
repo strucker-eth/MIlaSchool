@@ -123,7 +123,7 @@ const Wallets = () => {
                   class="mb-1 text-sm font-medium text-gray-600 hover:text-teal-600"
                   href="#section-2"
                 >
-                  CONNECT WALLET
+                  Connect Wallet
                 </a>
               </div>
               <div class="mb-3">
@@ -147,71 +147,86 @@ const Wallets = () => {
             <h2 id="section-one" class="mb-4 text-3xl font-bold">
               Introduction
             </h2>
-            <p class="mb-10 text-gray-600">
+            <p class="mb-3 text-gray-600">
               If you're new to the world of digital currencies and online
               transactions, creating a digital wallet is your first step towards
               navigating this exciting landscape. A digital wallet serves as
               your virtual pocket, allowing you to securely store, send, and
               receive various cryptocurrencies and digital assets.
-              <br />
+              <br></br>
               Here's a simple guide to help you get started:
-
             </p>
-
-            <p class="mb-10 text-gray-600">
-          <strong> Step 1: Choose Your Wallet Type</strong> 
+            <p class="mb-8 p-4 text-gray-600">
+          <strong> Step 1: Choose Your Wallet Type</strong>  <br /> 
 There are different types of digital wallets, each catering to specific needs. The two main
 categories are: <br />
-1. Software Wallets: These are applications or software programs that you can install on your
-computer or mobile device. Examples include Exodus, My EtherWallet, and Trust Wallet.
-Hardware Wallets: Physical devices that store your cryptocurrency offline, offering enhanced
+<strong>a. Software Wallets: </strong><br /> These are applications or software programs that you can install on your
+computer or mobile device. Examples include Exodus, My EtherWallet, and Trust Wallet.  <br /> 
+ <strong>b. Hardware Wallets: </strong> <br />  Physical devices that store your cryptocurrency offline, offering enhanced
 security. Popular options are Ledger Nano S and Trezor.
 <br/>
-<strong> Step 2: Research and Select a Wallet</strong> 
+<strong> Step 2: Research and Select a Wallet</strong>  <br /> 
 Before making a choice, research various wallets to find one that aligns with your preferences
 and needs. Consider factors like security features, ease of use, and the cryptocurrencies
 supported.
 <br />
-<strong> Step 3: Download and Install</strong> 
+<strong> Step 3: Download and Install</strong>  <br /> 
 If you opt for a software wallet, visit the official website of the chosen wallet provider and
 download the application. Follow the installation instructions, ensuring you download from a
 trusted source to avoid potential security risks.
 <br />
-<strong> Step 4: Set Up Your Wallet</strong> 
+<strong> Step 4: Set Up Your Wallet</strong>  <br /> 
 Once installed, launch the wallet application and follow the on-screen prompts to set up your
 account. This usually involves creating a strong password and receiving a recovery seed—a
 crucial backup in case you forget your password.
 <br />
-<strong> Step 5: Secure Your Wallet</strong> 
+<strong> Step 5: Secure Your Wallet</strong>  <br /> 
 Security is paramount in the world of digital wallets. Enable two-factor authentication (2FA) if
 your chosen wallet supports it. This adds an extra layer of protection by requiring a secondary
 verification method, such as a code sent to your mobile device.
 <br />
-<strong> Step 6: Fund Your Wallet</strong> 
+<strong> Step 6: Fund Your Wallet</strong>  <br /> 
 Now that your wallet is set up and secured, it's time to add funds. Depending on the wallet, you
 can transfer funds from your bank account, receive cryptocurrency from someone else, or
 purchase digital assets through the wallet's interface.
 <br />
-<strong> Step 7: Explore Features</strong> 
+<strong> Step 7: Explore Features</strong>  <br /> 
 Take some time to explore the features of your digital wallet. Familiarize yourself with sending
 and receiving transactions, checking your balance, and any additional functionalities your
 chosen wallet offers.
-<br />
+<br class="mt-4" />
+<p class="mt-4">
 Congratulations! You've successfully created and set up your digital wallet. As you become
 more comfortable with digital transactions, you can explore additional features and even expand
 your portfolio by investing in different cryptocurrencies. Always stay informed about security best
 practices to protect your digital assets.
+</p>
             </p>
             <h3 id="section-2" class="mb-4 text-3xl font-bold">
-              What is Distributed Ledger
+            Connect Wallet
             </h3>
-            <p class="mb-10 text-gray-600">
-              It is a Public database that can be accessed by numerous people.
-              The database can be shared and synchronized across multiple
-              platforms.
+            <p class="mb-3 text-gray-600">
+            A Connect Wallet is a digital tool that allows users to securely store, manage, and interact with
+their cryptocurrencies and digital assets. It serves as a bridge between users and
+blockchain-based networks, enabling them to access decentralized applications (DApps), trade
+digital assets, and participate in blockchain ecosystems.
+            </p>
+            <p class="mb-3 text-gray-600">
+            Once you've set up a Connect Wallet, you can link it to various decentralized applications, such
+as decentralized exchanges or blockchain-based games. This connection allows you to
+seamlessly engage with these platforms while maintaining control over your assets without
+relying on a centralized authority.
+
+            </p>
+            <p class="mb-3 text-gray-600">
+            Remember, security is paramount in the crypto space. Always use strong, unique passwords
+and enable additional security features like two-factor authentication. Understanding the basics
+of your Connect Wallet is a crucial step for anyone entering the world of blockchain and
+cryptocurrencies.
+
             </p>
             <h2 id="section-3" class="mb-4 text-3xl font-bold">
-              History of Blockchain
+            Step-by-Step Guide on Creating a Blockchain Wallet with MetaMask
             </h2>
             <p class="mb-10 text-gray-600">
               In 1991 research scientist like Stuart Haber and W.Scott Stornetta
