@@ -156,7 +156,8 @@ const Wallets = () => {
               <br></br>
               Here's a simple guide to help you get started:
             </p>
-            <p class="mb-8 p-4 text-gray-600">
+            <p class="mb-8  text-gray-600">
+              <p class="mb-3">
           <strong> Step 1: Choose Your Wallet Type</strong>  <br /> 
 There are different types of digital wallets, each catering to specific needs. The two main
 categories are: <br />
@@ -165,36 +166,49 @@ computer or mobile device. Examples include Exodus, My EtherWallet, and Trust Wa
  <strong>b. Hardware Wallets: </strong> <br />  Physical devices that store your cryptocurrency offline, offering enhanced
 security. Popular options are Ledger Nano S and Trezor.
 <br/>
+</p>
+<p class="mb-3">
 <strong> Step 2: Research and Select a Wallet</strong>  <br /> 
 Before making a choice, research various wallets to find one that aligns with your preferences
 and needs. Consider factors like security features, ease of use, and the cryptocurrencies
 supported.
 <br />
+</p>
+<p class="mb-3">
 <strong> Step 3: Download and Install</strong>  <br /> 
 If you opt for a software wallet, visit the official website of the chosen wallet provider and
 download the application. Follow the installation instructions, ensuring you download from a
 trusted source to avoid potential security risks.
 <br />
+</p>
+<p class="mb-3">
 <strong> Step 4: Set Up Your Wallet</strong>  <br /> 
 Once installed, launch the wallet application and follow the on-screen prompts to set up your
 account. This usually involves creating a strong password and receiving a recovery seed—a
 crucial backup in case you forget your password.
 <br />
+</p>
+<p class="mb-3">
 <strong> Step 5: Secure Your Wallet</strong>  <br /> 
 Security is paramount in the world of digital wallets. Enable two-factor authentication (2FA) if
 your chosen wallet supports it. This adds an extra layer of protection by requiring a secondary
 verification method, such as a code sent to your mobile device.
 <br />
+</p>
+<p class="mb-3">
 <strong> Step 6: Fund Your Wallet</strong>  <br /> 
 Now that your wallet is set up and secured, it's time to add funds. Depending on the wallet, you
 can transfer funds from your bank account, receive cryptocurrency from someone else, or
 purchase digital assets through the wallet's interface.
 <br />
+</p>
+<p class="mb-3">
 <strong> Step 7: Explore Features</strong>  <br /> 
 Take some time to explore the features of your digital wallet. Familiarize yourself with sending
 and receiving transactions, checking your balance, and any additional functionalities your
 chosen wallet offers.
-<br class="mt-4" />
+<br/>
+</p>
 <p class="mt-4">
 Congratulations! You've successfully created and set up your digital wallet. As you become
 more comfortable with digital transactions, you can explore additional features and even expand
