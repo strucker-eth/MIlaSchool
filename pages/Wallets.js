@@ -230,13 +230,10 @@ cryptocurrencies.
             </h2>
             <p class="mb-10 text-gray-600">
               In 1991 research scientist like Stuart Haber and W.Scott Stornetta
-              introduced a computationally practical solution to time stamp
-              documents digitally in a way that it will be difficult to tamper
-              with or backdate. This was the original idea behind the blockchain
-              technology. A white paper, Published in 2008 that introduced a
-              Peer-to-Peer decentralized electronic cash system called bitcoin
-              in 2008 was posted to a cryptography mailing list by Satoshi
-              Nakamoto.
+              In the realm of blockchain and cryptocurrencies, having a secure and user-friendly wallet is
+paramount. MetaMask, a popular browser extension, offers a seamless way to manage your
+digital assets and interact with decentralized applications (dApps). This section will walk you
+through the process of creating a blockchain wallet using MetaMask.
             </p>
 
             <h3 id="section-4" class="mb-4 text-3xl font-bold">
